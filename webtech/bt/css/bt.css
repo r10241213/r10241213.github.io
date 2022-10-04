@@ -1,0 +1,8 @@
+.jumbotron{
+    color: white;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg");
+    background-position: 50% 20%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    /* vh:viewport height */
+}

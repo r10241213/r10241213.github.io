@@ -1,0 +1,7 @@
+.jumbotron{
+    color: white;
+    background-image: url("https://www.sow.org.tw/sites/sow/files/u11282/wallpaper-2675683.jpg");
+    background-position: 50% 20%;
+    height: 35vh;
+    /* vh:viewport height */
+}

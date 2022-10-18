@@ -1,0 +1,28 @@
+#first {
+    background-image: url("/assets/turtle01.jpeg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second {
+    background-image: url("/assets/turtle01.jpeg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(60%) blur(1px);
+}
+
+#third {
+    background-image: url("/assets/turtle01.jpeg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%) blur(1px);
+}

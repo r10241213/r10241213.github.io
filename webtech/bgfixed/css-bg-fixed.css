@@ -1,5 +1,5 @@
 #first {
-    background-image: url("turtle01.jpeg");
+    background-image: url("/bgfixed/assets/turtle01.jpg");
     min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
@@ -8,7 +8,7 @@
 }
 
 #second {
-    background-image: url("turtle01.jpeg");
+    background-image: url("/bgfixed/assets/turtle01.jpg");
     min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
@@ -18,7 +18,7 @@
 }
 
 #third {
-    background-image: url("turtle01.jpeg");
+    background-image: url("/bgfixed/assets/turtle01.jpg");
     min-height: 1000px;
     background-attachment: fixed;
     background-position: center;

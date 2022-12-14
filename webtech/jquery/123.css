@@ -1,0 +1,30 @@
+.timeline-item:before {
+    content: attr(date-is);
+    position: absolute;
+    left: 2em;
+    font-weight: bold;
+    top: 2em;
+    display: block;
+    color: #AD1800;
+}
+
+.timeline-item:after {
+    width: 8px;
+    height: 8px;
+    display: block;
+    top: 2em;
+    position: absolute;
+    left: -7px;
+    border-radius: 8px;
+    content: '';
+    border: 2px solid #AD1800;
+    background: #AD1800;
+}
+
+.jumbotron{
+    color: white;
+    background-image: url("https://www.sow.org.tw/sites/sow/files/u11282/wallpaper-2675683.jpg");
+    background-position: 50% 20%;
+    height: 35vh;
+    /* vh:viewport height */
+}

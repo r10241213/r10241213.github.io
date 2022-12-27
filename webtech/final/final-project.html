@@ -89,7 +89,7 @@
             <div class="container-fluid"
                 style="width: 70vw;background-color: rgba(255,255,255,0.8);position: relative;top:20vh;display: flex;align-items: center">
                 <p style="margin:10%;position:relative;color: rgb(42,64,61);font-size: 15pt;">
-                    為了做到源頭減量，台灣在2002年推出首個限塑政策。至今已陸續針對部分場域推出管制，禁止提供如塑膠袋、免洗餐具、塑膠吸管等一次用免洗餐具。儘管在過去的二十年，政府陸續推出相關政策以減少垃圾量，卻因規範範圍有限，仍無法全面禁用相關塑膠製品。
+                    為了做到源頭減量，台灣在2002年推出首個限塑政策。至今已陸續針對部分場域推出管制，禁止提供如塑膠袋、免洗餐具、塑膠吸管等一次用免洗餐具。儘管在過去的二十年，政府陸續推出相關政策以減少垃圾量，<span class="spot">卻因規範範圍有限，仍無法全面禁用相關塑膠製品。</span>
                 </p>
             </div>
             <div class="container-fluid"
@@ -812,7 +812,19 @@
             });
         });
     </script>
-
+<script>
+    $(function () {
+$(window).scroll(function () {
+    var current_pos = $(document).scrollTop();
+    var winh = $(window).height();
+    $(".spot").each(function () {
+        if (current_pos > $(this).offset().top - winh / 2) {
+            $(this).addClass("spotted");
+        }
+    });
+});
+});
+</script>
 
 
 </body>

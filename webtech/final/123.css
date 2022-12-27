@@ -1,0 +1,122 @@
+.jumbotron{
+    background-image: url(https://live.staticflickr.com/65535/52276131449_52ef1c5fd9_b.jpg);
+    height: 100vh;
+    width: 100vw;
+    /* vh:viewport height */
+}
+
+#topp {
+    background-image: url("cover3.PNG");
+    height: 200vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav {
+    height: 8vh;
+    width: 102vw;
+}
+
+#sec1 {
+	background-color: #F0ECE9;
+	height: 300vh;
+  width: 100vw;
+	background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec11 {
+	height: 700vh;
+  width: 100vw;
+	background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#sec1word {
+	background-color: bisque;
+    width: 60vw;
+    height: 150vh;
+    top: 20%;
+    left: 20%;
+    display: flex;
+    align-items: center
+}
+
+#sec2 {
+	background-color: #F0ECE9;
+	height: 2200vh;
+  width: 100vw;
+	background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec3 {
+background-color: #F0ECE9;
+	height: 778vh;
+  width: 100vw;
+	background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec4 {
+  background-color: #F1F1F1;
+    height: 30vh;
+    width: 100vw;
+    background-repeat: none;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+  }
+.card {
+    perspective: 150rem;
+    position: relative;
+    height: 20rem;
+    max-width: 300px;
+    margin: 2rem;
+    box-shadow: none;
+    background: none;
+    border-color: transparent;
+  }
+  
+  .card-side {
+    height: 15rem;
+    border-radius: 15px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 2rem;
+    color: white;
+  }
+  
+  .card-side.back {
+    transform: rotateY(-180deg);
+    background-color: #F0ECE9;
+    background-image: linear-gradient(43deg,  #c7d74c 0%, #8EC3A7 100%);
+  }
+  
+  .card-side.front {
+    background-color: #38618F;
+    background-image: linear-gradient(160deg, #38618F 0%, #80cbd0 100%);
+  }
+  
+  .card:hover .card-side.front {
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover .card-side.back {
+    transform: rotateY(0deg);
+  }

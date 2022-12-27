@@ -12,6 +12,7 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  z-index: -2;
 }
 
 #nav {
@@ -83,6 +84,11 @@
   background-position: 0%;
   background-size: 200%;
   font-weight: 400;
+}
+
+.spotted {
+	background-position: -100%;
+	transition: all 2.5s;
 }
 
 .card {

@@ -71,6 +71,7 @@
   background-color: #F1F1F1;
   height: 30vh;
   width: 100vw;
+  z-index: -1;
   background-repeat: none;
   background-attachment: fixed;
   background-position: center;

@@ -22,7 +22,7 @@
 
 #sec1 {
   background-color: #F0ECE9;
-  height: 300vh;
+  height: 400vh;
   width: 100vw;
   background-repeat: none;
   background-attachment: fixed;
@@ -43,7 +43,7 @@
 #sec1word {
   background-color: bisque;
   width: 60vw;
-  height: 150vh;
+  height: 200vh;
   top: 20%;
   left: 20%;
   display: flex;
